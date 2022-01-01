@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.main-box{
+	width: 100%;
+	padding: 60px 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.form-box{
+	display: flex;
+}
+.left,.right{
+	flex-basis: 50%;
+}
+.logo img{
+	width: 160px;
+}
+.left-img img{
+	width: 100%;
+	height: auto;
+}
+.left-img{
+	padding: 45px 100px 60px 60px;
+	border-right: 1px solid black;
+}
+.right{
+	margin-left: 60px;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 8px;
+}
+.social-icon ul li a i{
+	height: 30px;
+	width: 30px;
+	background: red;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 100%;
+}
+.social-icon ul{
+	display: inline-block;
+}
+.social-icon span{
+	font-weight: 600;
+	margin-right: 10px;
+}
+line{
+	height: 1px;
+	width: 1px;
+	background: red;
+	margin: 40px 0px;
+}
