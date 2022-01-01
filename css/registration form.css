@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+body{
+	width: 100%;
+	height: 80vh;
+	background-image: url(../img/bg-img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.main-box{
+	width: 63%;
+	background: #ffffff;
+	height: 580px;
+	margin: 30px auto;
+}
+.box{
+	display: flex;
+}
+.box-left{
+	padding: 20px;
+}
+.box-right{
+	padding: 60px 60px 60px 20px;
+}
+.box-right h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	color: #333333;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.f-width{
+	width: 100%;
+	padding-bottom: 6px;
+	margin-bottom: 28px;
+	border: none;
+	border-bottom: 1px solid #333333;
+}
+.h-width{
+	width: 46%;
+	margin-bottom: 28px;
+	padding-bottom: 8px;
+	border: none;
+	border-bottom: 1px solid #333333;
+}
+.float-r{
+	float: right;
+}
+input:focus,select:focus{
+	outline: none;
+}
+input,select{
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+}
+select{
+	cursor: pointer;
+}
+input::placeholder,select{
+	color: #333333;
+}
+.icons i{
+	color: #222;
+	font-size: 12px;
+	position: absolute;
+	margin-left: 300px;
+    padding-top: 6px
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e9e9e9;
+    padding: 10px 38px;
+    margin-left: 70px;
+    border: none;
+    background: #333333;
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+}
+.icon i{
+	color: #e9e9e9;
+	position: absolute;
+	top: 518px;
+    right: 444px;
+    cursor: pointer;
+}
